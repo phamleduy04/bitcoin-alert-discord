@@ -31,10 +31,12 @@ client.on('ready', () => {
         if (type.toLowerCase() == 'up' && price > threshold) {
             embed.setTitle('Hey! The price of Bitcoin is higher then your threshold')
                 .addField('Price now: ', `${price} USD ${presentage}`)
+                .setTimestamp()
             await owner.send(embed);
         } else if (type.toLowerCase == 'down' && price < threshold) {
             embed.setTitle('Hey! The price of Bitcoin is lower then your threshold')
                 .addField('Price now: ', `${price} USD ${presentage}`)
+                .setTimestamp()
             await owner.send(embed);
         }
         setTimeout(startLoop, ms(loopEvery))
