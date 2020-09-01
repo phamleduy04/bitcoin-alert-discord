@@ -1,6 +1,6 @@
 {
   "name": "bitcoin-alert-discord",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -12,6 +12,7 @@
     "numeral": "^2.0.6"
   },
   "devDependencies": {
+    "all-contributors-cli": "^6.17.2",
     "cross-env": "^7.0.2",
     "eslint": "^7.8.0"
   },

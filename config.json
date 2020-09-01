@@ -1,6 +1,6 @@
 {
     "threshold": 11000,
     "type": "up",
-    "loopEvery": "5s",
+    "loopEvery": "1m",
     "ownerID": "455935236262592512"
 }
