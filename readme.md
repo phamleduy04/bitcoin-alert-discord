@@ -13,7 +13,7 @@ Simple discord bot to alert when the price of bitcoin is higher than or lower th
 - Clone this repo (git clone https://github.com/phamleduy04/bitcoin-alert-discord.git)
 - Edit config.json
     - threshold: The amount will trigger the alert
-    - type: "up" or "down". up means if the price of bitcoin is higher than threshold then you got the alert (same with down)
+    - type: "up" or "down". up means if the price of bitcoin is higher than threshold then you got the alert (reverse with "down")
     - loopEvery: time the instance will check the price. (5s, 10m, 1h, 1d, etc...)
     - ownerID: your discord ID
 ```json
